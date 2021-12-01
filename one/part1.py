@@ -4,7 +4,6 @@ def main():
 
     with open("input.txt", "r") as file:
         for line in file:
-
             num = int(line)
 
             if prev == -1:
